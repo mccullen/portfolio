@@ -1,20 +1,25 @@
 import { BlogPosts } from 'app/components/posts'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Home"
+};
+
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Hello and welcome to my website!
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        I'm Jeff McCullen, data scientist and software engineer with experience in the aerospace industry and 
+        Military Health System. I completed my master's degree in computer science, focusing on 
+        data science and machine learning applications in healthcare. Outside of work, I enjoy 
+        hobbies such as caving, rock climbing, biking, and playing guitar and piano.
       </p>
       <div className="my-8">
-        <BlogPosts />
+        {/*<BlogPosts />*/}
       </div>
     </section>
   )
