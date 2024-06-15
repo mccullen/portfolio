@@ -21,7 +21,7 @@ const contactInfo = [
   },
   {
     id: "git-lab",
-    name: "LinkedIn",
+    name: "GitLab",
     url: "https://gitlab.com/mccullen/",
     img: "gitlab-icon.webp"
   },
