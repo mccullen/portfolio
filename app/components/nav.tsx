@@ -4,9 +4,11 @@ import { usePathname } from 'next/navigation';
 
 const navItems = {
   '/': {
-    name: 'home',
+    id: 'home',
+    name: 'home'
   },
   '/projects': {
+    id: 'projects',
     name: 'projects',
   },
   /*
@@ -15,6 +17,7 @@ const navItems = {
   },
   */
   '/contact': {
+    id: 'contact',
     name: 'contact',
   },
 }
@@ -30,11 +33,12 @@ export function Navbar() {
           id="nav"
         >
           <div className="flex flex-row space-x-0 pr-10">
-            {Object.entries(navItems).map(([path, { name }]) => {
+            {Object.entries(navItems).map(([path, { id, name }]) => {
               const isActive = pathname === path;
               return (
                 <Link
                   key={path}
+                  id={`${id}-link`}
                   href={path}
                   className={`transition-colors ${
                     isActive
