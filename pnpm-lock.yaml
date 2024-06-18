@@ -57,6 +57,9 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
     devDependencies:
+      '@netlify/plugin-nextjs':
+        specifier: ^5.3.3
+        version: 5.3.3
       netlify-cli:
         specifier: ^17.28.0
         version: 17.28.0(@types/node@20.11.17)
@@ -614,6 +617,10 @@ packages:
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@opentelemetry/api': ~1.8.0
+
+  '@netlify/plugin-nextjs@5.3.3':
+    resolution: {integrity: sha512-QhvZLOHhPuTnh6TZ5G0/jtjAJ1Y52A67b39eygKv6znQUPti8p+8y2WulcntpCRzVp2stzEULMNPlnptna1ikg==}
+    engines: {node: '>=18.0.0'}
 
   '@netlify/plugins-list@6.80.0':
     resolution: {integrity: sha512-bCKLI51UZ70ziIWsf2nvgPd4XuG6m8AMCoHiYtl/BSsiaSBfmryZnTTqdRXerH09tBRpbPPwzaEgUJwyU9o8Qw==}
@@ -5640,6 +5647,8 @@ snapshots:
   '@netlify/opentelemetry-utils@1.2.1(@opentelemetry/api@1.8.0)':
     dependencies:
       '@opentelemetry/api': 1.8.0
+
+  '@netlify/plugin-nextjs@5.3.3': {}
 
   '@netlify/plugins-list@6.80.0': {}
 
