@@ -10,7 +10,7 @@ const projects = [
     id: "tactix",
     name: "tactix",
     description: "Play tic tac toe against computer",
-    url: "https://tactix.vercel.app"
+    url: "https://tactix.netlify.app"
   },
   {
     id: "poddelnye",
@@ -22,7 +22,7 @@ const projects = [
     id: "eunomia",
     name: "eunomia",
     description: "A playground for standardized observational health analytics using the OMOP Common Data Model",
-    url: "https://eunomia.vercel.app"
+    url: "https://eunomia.netlify.app"
   },
   {
     id: "spark-ctakes",
