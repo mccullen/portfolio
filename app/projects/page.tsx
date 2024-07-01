@@ -19,10 +19,10 @@ const projects = [
     url: "https://poddelnye.vercel.app"
   },
   {
-    id: "eunomia",
-    name: "eunomia",
+    id: "eirene",
+    name: "eirene",
     description: "A playground for standardized observational health analytics using the OMOP Common Data Model",
-    url: "https://eunomia.netlify.app"
+    url: "https://eirene.netlify.app"
   },
   {
     id: "spark-ctakes",
