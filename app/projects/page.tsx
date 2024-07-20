@@ -25,6 +25,12 @@ const projects = [
     url: "https://eirene.netlify.app"
   },
   {
+    id: "riverstyx",
+    name: "riverstyx",
+    description: "A platform featuring interactive tutorials for exploring the OHDSI HADES R packages used in observational health analytics.",
+    url: "https://riverstyx.netlify.app"
+  },
+  {
     id: "spark-ctakes",
     name: "spark-ctakes",
     description: "Solution to scale out Apache cTAKES clinical NLP framework using Apache Spark",
