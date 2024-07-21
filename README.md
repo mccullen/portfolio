@@ -1,5 +1,7 @@
 [My Website](https://mccullen.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/32940ac7-59f9-4db5-aefb-5e675fdcf3db/deploy-status)](https://app.netlify.com/sites/mccullen/deploys)
+
 ## Tech Stack
 - MDX and Markdown support
 - Optimized for SEO (sitemap, robots, JSON-LD schema)
