@@ -18,13 +18,7 @@ const contactInfo = [
     name: "GitHub",
     url: "https://github.com/mccullen/",
     img: "github-icon.png"
-  },
-  {
-    id: "git-lab",
-    name: "GitLab",
-    url: "https://gitlab.com/mccullen/",
-    img: "gitlab-icon.webp"
-  },
+  }
 ];
 
 export default function Page() {
