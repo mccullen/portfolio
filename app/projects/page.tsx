@@ -40,7 +40,7 @@ const projects = [
     id: "custom-components",
     name: "custom-ctakes-components",
     description: "Custom components to use with the Apache cTAKES clinical NLP framework",
-    url: "https://github.com/mccullen/custom-components"
+    url: "https://github.com/mccullen/custom-ctakes-components"
   },
   {
     id: "ctakes-example",
