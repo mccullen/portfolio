@@ -13,10 +13,10 @@ const projects = [
     url: "https://tactix.netlify.app"
   },
   {
-    id: "fakenews",
-    name: "fakenews",
+    id: "fakenewsvis",
+    name: "fakenewsvis",
     description: "Fake news visualization",
-    url: "https://fakenews.vercel.app"
+    url: "https://fakenewsvis.vercel.app"
   },
   {
     id: "eirene",
